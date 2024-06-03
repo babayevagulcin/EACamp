@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+.navbar__bg {
+  background-color: #82c6af;
+  padding: 10px;
+  border-radius: 12px;
+  margin: 10px;
+}
+.navbar__list {
+  padding: 15px 30px;
+}
+.hero__area {
+  background-color: #722727;
+  height: 100%;
+  border-radius: 12px;
+  margin: 10px;
+  padding-bottom: 20px;
+}
+.hero__area-content {
+  background-color: #e69d45;
+  border-radius: 70px;
+  padding: 25px;
+  width: 35%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero__area-content h1 {
+  color: #fff;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero__area-text {
+  background-color: #caca38;
+  border-radius: 70px;
+  padding: 10px;
+  width: 20%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.hero__area-text p {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero__area-img {
+  width: 20%;
+  margin: 10px auto;
+}
+.hero__area-img-box {
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  margin: 15px 0;
+  padding: 10px;
+  font-family: cursive;
+  font-size: 15px;
+  font-weight: 700;
+}
+.hero__area-img-box img {
+  width: 100%;
+  height: 100%;
+}
+footer {
+  border-radius: 12px;
+  background-color: #4966a3;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+.footer__list {
+  width: 20%;
+  margin: 0 auto;
+}
+.footer__list a {
+  color: #fff;
+  text-decoration: none;
+}
+/*? ABOUT Page */
+.hero__area-paragraph {
+  text-align: center;
+}
+.hero__area-paragraph p {
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+}
+.hero__area-paragraph .hero__area-paragraph-font {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: fantasy;
+  padding: 30px 0;
+}
+/*? CONTACT PAGE */
+table,
+th,
+td {
+  border: 1px solid;
+}
+table {
+  background-color: #b27f8f;
+  width: 40%;
+  margin: 20px auto;
+  border-color: gray;
+}
+form {
+  background-color: #446788;
+  width: 35%;
+  border-radius: 12px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+.form__submit {
+  width: 30%;
+  margin: 0 auto;
+}
+.form__text {
+  width: 50%;
+}
+button {
+  width: 100%;
+}

@@ -1,0 +1,185 @@
+* {
+     box-sizing: border-box;
+     font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+     background-color: #F1F1F1;
+}
+
+.container {
+     width: 90%;
+     margin: 0 auto;
+}
+
+header {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-top: 50px;
+     gap: 20px;
+}
+
+header .blog__title {
+     font-size: 40px;
+     text-transform: uppercase;
+}
+
+header .blog__content {
+     font-size: 20px;
+}
+
+header .blog__content span {
+     background-color: #000;
+     color: #fff;
+     padding: 2px 8px;
+}
+
+/*! CARDS */
+.cards {
+     padding-top: 100px;
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     gap: 20px;
+}
+
+.card {
+     margin: 70px 0;
+     box-shadow: 0 0 15px 0;
+}
+
+.cards__left .card {
+     width: 800px;
+}
+
+.cards__left .card__img {
+     width: 800px;
+}
+
+.cards__left .card__img img {
+     width: 100%;
+}
+
+.card__content,
+.card__btn {
+     padding: 20px;
+}
+
+.card__content h2 {
+     font-size: 30px;
+     font-weight: 400;
+     text-transform: uppercase;
+}
+
+.card__content p {
+     font-size: 20px;
+     font-weight: 400;
+     padding: 10px 0;
+}
+
+.card__content .card__description span {
+     opacity: 0.5;
+}
+
+.card__btn {
+     display: flex;
+     justify-content: space-between;
+}
+
+.card__btn button {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 13px;
+     font-weight: 700;
+     text-transform: uppercase;
+     padding: 10px 15px;
+}
+
+.card__btn p {
+     font-size: 20px;
+     font-weight: 400;
+}
+
+.card__btn p span {
+     background-color: #606060;
+     color: #fff;
+     padding: 0 5px;
+     border-radius: 50%;
+}
+
+.cards__right .card {
+     width: 450px;
+}
+
+.cards__right .card__img {
+     width: 450px;
+}
+
+.cards__right .card__img img {
+     width: 100%;
+}
+
+.cards__right .card__content h3 {
+     font-size: 25px;
+     font-weight: 400;
+     text-transform: capitalize;
+}
+
+
+.card__post_title {
+     font-size: 20px;
+     font-weight: 400;
+     line-height: 60px;
+     padding: 10px;
+     text-transform: capitalize;
+}
+
+.card__list {
+     padding: 10px;
+     background-color: #fff;
+}
+
+.card__list .card__list_item {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     font-size: 20px;
+     margin: 15px 0;
+     border-bottom: 1px solid #dadada;
+     padding-bottom: 10px;
+}
+
+.card__list_item:last-child {
+     border-bottom: none;
+     padding-bottom: 0;
+}
+
+.card__list .card__list_img {
+     display: inline-block;
+     width: 60px;
+     height: 60px;
+}
+
+.card__list .card__list_img img {
+     width: 100%;
+     height: 100%;
+}
+
+.card__tag_title {
+     font-size: 25px;
+     font-weight: 400;
+     padding: 10px;
+     text-transform: capitalize;
+}
+
+.tags__list {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+     padding: 20px;
+     background-color: #fff;
+}
+
+.tags__list .tags__list_item {
+     background-color: #dadada;
+}
